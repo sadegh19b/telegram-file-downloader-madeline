@@ -1,0 +1,39 @@
+# PHP
+vendor/
+composer.phar
+composer.lock
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# MadelineProto session files
+*.madeline
+*.madeline.lock
+*.madeline.safe.php
+*.madeline.light.json
+*.madeline.lightState.json
+
+# Uploaded files
+uploads/
+telegram_uploads/
+
+# IDE & System Files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Cache files
+*.cache
+.php_cs.cache
+.phpunit.result.cache
+
+# Test files
+phpunit.xml
+tests/coverage/ 
