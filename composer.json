@@ -1,0 +1,16 @@
+{
+    "name": "telegram/file-downloader-madeline",
+    "description": "A Telegram file downloader using MadelineProto to download files from channels/chats and generate download links.",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "danog/madelineproto": "^8.0",
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramFileDownloaderMadeline\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
